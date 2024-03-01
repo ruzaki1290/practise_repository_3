@@ -1,22 +1,34 @@
 .calculator {
-    width: 200px;
+    width: 300px; /* Increase the width */
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px; /* Increase the padding */
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px; /* Increase the border radius for a rounded look */
     text-align: center;
+    background-color: #f0f0f0; /* Light gray background */
 }
 
 #display {
     width: 100%;
-    margin-bottom: 10px;
-    padding: 5px;
-    font-size: 20px;
+    margin-bottom: 15px; /* Increase the margin */
+    padding: 10px; /* Increase the padding */
+    font-size: 24px; /* Increase the font size */
+    background-color: #d9e8f3; /* Light blue background for display */
+    color: #fff; /* White text color */
 }
 
-.keys button {
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    font-size: 20px;
+.button {
+    width: 60px; /* Increase the button width */
+    height: 60px; /* Increase the button height */
+    background-color: #7f8c8d; /* Gray button color */
+    color: #fff; /* White text color */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Increase the border radius for rounded buttons */
+    padding: 15px; /* Increase the padding */
+    margin: 10px; /* Increase the margin */
+}
+
+.button:hover {
+    background-color: #34495e; /* Darker gray hover color */
+    cursor: pointer;
 }
